@@ -12,7 +12,7 @@ if bit=='64bit':
     cmd('./titans')
 
 if bit == '32bit':
-    print('[!] 32 Bit Device')beep(2)
+    print('[!] 32 Bit Device');beep(2)
     cmd('chmod 777 titan')
     cmd('./titan')
 
