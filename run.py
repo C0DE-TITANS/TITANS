@@ -8,13 +8,15 @@ cmd('git pull');cmd('clear')
 
 if bit=='64bit':
     print('[!] 64 Bit Device');beep(2)
-    cmd('chmod 777 titans')
-    cmd('./titans')
+    print('Tool Under Update..!')
+    #cmd('chmod 777 titans')
+    #cmd('./titans')
 
 if bit == '32bit':
     print('[!] 32 Bit Device');beep(2)
-    cmd('chmod 777 titan')
-    cmd('./titan')
+    print('Tool Under Update..!')
+    #cmd('chmod 777 titan')
+    #cmd('./titan')
 
 else:
     print('Your Device did not support TITANS tool...!!')
