@@ -14,9 +14,8 @@ if bit=='64bit':
 
 if bit == '32bit':
     print('[!] 32 Bit Device');beep(2)
-    print('Tool Under Update..!')
-    #cmd('chmod 777 titan')
-    #cmd('./titan')
+    cmd('chmod 777 titan')
+    cmd('./titan')
 
 else:
     print('Your Device did not support TITANS tool...!!')
